@@ -23,7 +23,6 @@ export default Route.extend(ConfirmationMixin, Analytics, ResetScrollMixin, CasA
     confirmationMessage: computed('i18n', function() {
         return this.get('i18n').t('submit.abandon_preprint_confirmation');
     }),
-
     model() {
         // Store the empty preprint to be created on the model hook for page. Node will be fetched
         //  internally during submission process.

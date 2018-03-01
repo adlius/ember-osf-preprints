@@ -44,7 +44,7 @@ export default Route.extend({
     },
 
     actions: {
-        error(error) {
+        error() {
             // Ember.Logger.error(error);
 
             // substate implementation when returning `true`
